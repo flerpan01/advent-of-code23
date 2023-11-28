@@ -1,0 +1,14 @@
+Here we use a [previous puzzle](https://adventofcode.com/2022/day/1) to set up the environment 
+
+Get the puzzle input inside R. Save as `day1.txt` inside `inputs/`: `inputs/day1.txt`
+```{r}
+# save the input from https://adventofcode.com/2022/day/1/input
+setwd("advent_of_code/2023")
+input <- "inputs/day1.txt"
+input <- readLines(input)
+length(input)
+head(input)
+
+# transfrom from characters to numeric
+input <- as.numeric(input)
+```
